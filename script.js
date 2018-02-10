@@ -35,7 +35,7 @@ window.onload = function(){
         ctx.fillRect(0, 0, 129, 129);
         ctx.font = "130px 'メイリオ'";
         ctx.fillStyle = "rgb(0, 0, 0)";
-        ctx.fillText(curChara[0],0,110,129);
+        ctx.fillText(curChara,0,110,129);
         var Data = ctx.getImageData(0, 0, canvas.width, canvas.height);
         var data = Data.data;
         var bin=[];
