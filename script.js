@@ -106,5 +106,5 @@ function tweet(){
     var str = document.forms.dst.ta.value;
     str += "\n";
     str += "https://kagasan.github.io/dot/"; 
-    window.open('http://twitter.com/home?status='+encodeURI(str),'_blank');
+    window.open('https://twitter.com/intent/tweet?text='+encodeURI(str),'_blank');
 }
