@@ -33,7 +33,7 @@ window.onload = function(){
         canvas.height = 129;
         ctx.fillStyle = "rgb(255, 255, 255)";
         ctx.fillRect(0, 0, 129, 129);
-        ctx.font = "130px 'メイリオ'";
+        ctx.font = "130px 'メイリオ, sans-serif'";
         ctx.fillStyle = "rgb(0, 0, 0)";
         ctx.fillText(curChara,0,110,129);
         var Data = ctx.getImageData(0, 0, canvas.width, canvas.height);
